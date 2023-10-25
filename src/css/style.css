@@ -1,0 +1,487 @@
+@font-face {
+    font-family: 'YourFontName';
+    src: url('../fonts/Catamaran-VariableFont_wght.ttf') format('truetype');
+}
+
+.nav-link{
+    padding: 37px 110px;
+    height: 95px !important;
+    background: white;
+    border: none;
+    
+}
+.nav-link li{
+    height: 58px;
+}
+.nav-link .dropdown-menu li{
+    height: 22px;
+}
+.logo img{
+    margin-left: 138px;
+    margin-top: 2px;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #929292;
+}
+.navbar-inverse .navbar-nav>li>a{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 22px;
+    color: #080808;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-family: 'YourFontName', sans-serif;
+}
+.navbar-inverse .navbar-nav>.activelink a{
+    color: #929292 !important;
+    background: none !important;
+}
+
+.navbar-inverse .navbar-nav>li> a i{
+    font-size: 14px;
+}
+.logo{
+    display: inline-block;
+}
+.navright{
+    width: 31%;
+    float: right;
+    display: inline-block;
+    margin-right: -4%;
+}
+.menu{
+    background: black;
+    height: 0.7px;
+    width: 16px;
+    margin-top: 4.2px;
+}
+.navright span{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 2px;
+    font-size: 11px;
+    line-height: 1;
+    clear: both;
+    font-family: cursive;
+    font-weight: 100;
+    color: #929292;
+    margin-top: -4px;
+    margin-left: -1px;
+}
+.navright li a{
+    font-size: 11.9px !important;
+}
+
+.navright li{
+    margin-right: -23.2px;
+}
+.navright img{
+    height: 17.5px;
+}
+
+
+#sliderimg1,
+#sliderimg2 {
+    transition: transform 1s;
+    transform: translateY(0);
+}
+
+
+#slider-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider{
+    background: #f3f3f3;
+    margin-top: 95px;
+    height: 528px;
+    overflow: hidden;
+    position: relative;
+    margin-left: -19px;
+    width: 1179px;
+}
+
+.slider #slide1 #sliderimg1,
+.slider #slide1 #sliderimg2,
+.slider #slide2 #sliderimg3,
+.slider #slide3 #sliderimg4 {
+    position: absolute;
+    left: 50%;
+    transition: transform 1s; 
+}
+
+.slider #slide1 #sliderimg1 {
+    height: 520px;
+    width: 266px;
+    transform: translate(0, -100%);
+}
+
+.slider #slide1 #sliderimg2 {
+    height: 435px;
+    width: 217px;
+    left: 75%;
+    transform: translate(0, -100%);
+}
+
+.slider #slide2 #sliderimg3 {
+    height: 444px;
+    width: 415px;
+    transform: translate(0, 107%);
+}
+
+.slider #slide3 #sliderimg4 {
+    width: 412px;
+    height: 618px;
+    transform: translate(0, 100%);
+}
+
+.slider a{
+    background-color: aqua;
+    color: white;
+}
+
+.products .productsmenu ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.products .productsmenu ul li a{
+    color: #929292;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: 'YourFontName',sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.products .productsmenu ul li a:hover{
+    color: black;
+}
+.products .productsmenu ul{
+    margin-left: -50px;
+}
+
+.products{
+    margin-top: 6%;
+    padding-bottom: 50px;
+
+}
+
+.productsmenu .activelink {
+    color: black !important;
+}
+.productsmenu .fillter{
+    margin-left: 41% !important;
+}
+.productsmenu .fillter a{
+    color: black !important;
+}
+.prd{
+    display: inline-block;
+    width: 237px;
+    background: #f1f3f4;
+    margin-left: 12px;
+    height: 360px;
+    margin-right: 33px;
+    margin-top: 15px;
+}
+.prd img{
+    width: 235px;
+    height: 288px;
+}
+.productsitem{
+    margin-top: 30px;
+}
+
+.price{
+    transition: 0.3s;
+    display: block;
+    position: absolute;
+    margin-left: 7%;
+    font-size: 13.7px;
+    color: #959595;
+    font-weight: inherit;
+    font-family: sans-serif;
+}
+.prinfo{
+    background: white;
+    height: 90px;
+    padding-top: 20px;
+}
+.addtocart {
+    transition: 0.5s;
+    position: absolute;
+    margin-left: 5%;
+    font-size: 13.7px;
+    color: #959595;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: 0.3s;
+    transform: translateX(-60px);
+    opacity: 0;
+}
+.addtocart:hover{
+    color: black !important;
+    text-decoration: none !important;
+
+}
+.prtitle{
+    margin-left: 25px;
+    margin-top: 0px;
+    font-family: 'YourFontName', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: inherit;
+    letter-spacing: 0.8px;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+.sidebox {
+    margin-left: 65%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 35%;
+    height: 100%;
+    background-color: #000000;
+    transition: left 0.5s;
+}
+
+
+.sidebox h1{
+    color: #ffffff;
+    position: absolute;
+    font-family: system-ui;
+    font-weight: 400;
+    margin-top: 80%;
+    margin-left: 18%;
+}
+#searchlink{
+    position: absolute;
+    width: 22.4%;
+    opacity: 0;
+    height: 55px;
+    right: 134px;
+    top: 95px;
+    transition: 0.5s;
+}
+#searchlink input{
+    width: 100%;
+    color: white;
+    height: 100%;
+    background: #111111;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'YourFontName',sans-serif;
+    font-size: 14px;
+}
+#searchlink button{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 14px;
+    background: no-repeat;
+    border: none;
+}
+#searchlink i{
+    color: #c1c1c1;
+}
+
+  
+
+
+
+  
+.dropdown-menu {
+  position: absolute;
+  background-color: black;
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.5s, height 0.5s;
+  display: block;
+
+  }
+  
+  .navbar-nav li:hover .dropdown-menu {
+    opacity: 1;
+    height: 528px;
+  
+  }
+  
+  .dropdown-menu>li>a:hover{
+    text-decoration: none;
+    background-color: black;
+    color:#929292;
+
+  }  
+  .dropdown-menu li {
+    margin: 5px 0;
+    position: relative;
+  }
+  
+  .dropdown-menu li a {
+    color:#929292;
+    text-decoration: none;
+  }
+  
+  .width4-8{
+    top: 57px !important;
+    width: 197px !important;
+    left: -8px !important;
+  }
+  .widthfull{
+    top: 58px !important;
+    left: -91px !important;
+    width: 1109px;
+  }
+
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+  /* Tüm CSS kodlarınızı burada güncelleyin */
+
+/* Örnek bir mobil uyumlu navbar */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav li {
+        text-align: center;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+}
+
+/* Örnek bir mobil uyumlu slider */
+@media (max-width: 768px) {
+    .slider {
+        height: auto;
+    }
+    
+    .slide {
+        height: auto;
+    }
+
+    /* Diğer slider stil ayarlarını burada güncelleyin */
+}
+
+/* Örnek bir mobil uyumlu ürün listesi */
+@media (max-width: 768px) {
+    .productsitem {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .prd {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .prd img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Diğer ürün listesi stil ayarlarını burada güncelleyin */
+}
+
+footer h4{
+    color: #080808;
+    letter-spacing: .1em;
+    margin-top: -8px;
+    font-size: 14px;
+    font-family:'YourFontName', sans-serif;
+    font-weight: 600;
+
+}
+footer{
+    background: none !important;
+}
+
+.footer-column{
+    padding-top: 3%;
+    padding-left: 3%;
+    margin-left: 50px;
+
+}
+.footer-column ul li a{
+    color: #929292;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'YourFontName', sans-serif;
+    transition: 0.3s;
+}
+.footer-column ul li:hover a{
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.footer-column ul li i{
+    margin-top: 5px;
+    position: absolute;
+    display: none;
+    transform: translateX(-15%);
+    transition: 0.5s;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.footer-column ul{
+    margin-top: 25px;
+}
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+.footer-column ul li:hover i{
+    display: block;
+    transform: translateX(10%);
+}
+
+footer p{
+    margin-bottom: 20px;
+    margin-top:20px;
+}

@@ -1,0 +1,501 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "ROSE HOLDBACK",
+        "price": 24,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product1_primary.jpg",
+        "secondary_photos": [
+          "product1_secondary1.jpg",
+          "product1_secondary2.jpg",
+          "product1_secondary3.jpg",
+          "product1_secondary4.jpg"
+        ],
+        "category": ["Decoration", "Home Decor"],
+        "tags": ["Decoration", "Rose"],
+        "sku": "SKU: 003",
+        "material": "Wood",
+        "color": "Rose",
+        "weight": "2 kg",
+        "dimensions": "10 × 10 × 15 cm",
+        "comments": [
+          {
+            "name": "Nikole",
+            "surname": "Burke",
+            "text": "Amazing!",
+            "rating": 5,
+            "photo": "product1comment.png",
+            "comment_date": " 08.02.2017."
+          }
+        ],
+        "pr_rating": 4
+      },
+      {
+        "id": 2,
+        "name": "DECO ACCESSORY",
+        "price": 15,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product2_primary.jpg",
+        "secondary_photos": [
+          "product2_secondary1.jpg",
+          "product2_secondary2.jpg",
+          "product2_secondary3.jpg",
+          "product2_secondary4.jpg"
+        ],
+        "category": ["Basics","Home Decor"],
+        "tags": ["Decoration", "Modern"],
+        "sku": "SKU: 006",
+        "material": "Wood",
+        "color": "Beige",
+        "weight": "2 kg",
+        "dimensions": "10 × 10 × 15 cm",
+        "comments": [
+          {
+            "name": "Ralph",
+            "surname": "Jackson",
+            "text": "Great!",
+            "rating": 5,
+            "photo": "product2comment.png",
+            "comment_date": " 08.02.2017."
+          }
+        ],
+        "pr_rating": 4
+      },
+      {
+        "id": 3,
+        "name": "FLOWER VASE",
+        "price": 170,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product3_primary.jpg",
+        "secondary_photos": [
+          "product3_secondary1.jpg",
+          "product3_secondary2.jpg",
+          "product3_secondary3.jpg",
+          "product3_secondary4.jpg"
+        ],
+        "category": ["Home Decor", "Vases"],
+        "tags": ["Modern", "Pottery"],
+        "sku": "SKU: 007",
+        "material": "Metal",
+        "color": "White",
+        "weight": "2 kg",
+        "dimensions": "10 x 10 x 15cm",
+        "comments": [
+          {
+            "name": "Olivia ",
+            "surname": " Schmidt ",
+            "text": "Amazing!",
+            "rating": 4,
+            "photo": "product3comment.png",
+            "comment_date": " 08.02.2017."
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 4,
+        "name": "TABLE LAMP",
+        "price": 240,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product4_primary.jpg",
+        "secondary_photos": [
+          "product4_secondary1.jpg",
+          "product4_secondary2.jpg",
+          "product4_secondary3.jpg",
+          "product4_secondary4.jpg"
+        ],
+        "category": ["Home Decor", "Lighting"],
+        "tags": ["White", "Wood"],
+        "sku": "SKU: 001",
+        "material": "Deri",
+        "color": "Brown",
+        "weight": "2 kg",
+        "dimensions": "10 x 10 x 15 cm",
+        "comments": [
+          {
+            "name": "Eleanor",
+            "surname": "Schmidt ",
+            "text": "Very nice!",
+            "rating": 4,
+            "photo": "product3comment.png",
+            "comment_date": "2018-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 5,
+        "name": "POTTERY VASE",
+        "price": 60,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product5_primary.jpg",
+        "secondary_photos": [
+          "product5_secondary1.jpg",
+          "product5_secondary2.jpg",
+          "product5_secondary3.jpg",
+          "product5_secondary4.jpg"
+        ],
+        "category": ["Home Decor", "Vases"],
+        "tags": ["Antique", "Pottery"],
+        "sku": "SKU: 001",
+        "material": "Concrete",
+        "color": "Beige",
+        "weight": "2 kg",
+        "dimensions": "10 x 10 x 15 cm",
+        "comments": [
+          {
+            "name": "eze",
+            "surname": "Brown",
+            "text": "Like it!",
+            "rating": 1,
+            "photo": "product2comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 6,
+        "name": "NEWSPAPER STORAGE",
+        "price":90,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product6_primary.jpg",
+        "secondary_photos": [
+          "product6_secondary1.jpg",
+          "product6_secondary2.jpg",
+          "product6_secondary3.jpg",
+          "product6_secondary4.jpg"
+        ],
+        "category": ["Basics", "Home Decor"],
+        "tags": ["Boxes", "Wood"],
+        "sku": "SKU: 004",
+        "material": "Wood",
+        "color": "Beige",
+        "weight": "0.8 kg",
+        "dimensions": "10 x 10 x 15 cm",
+        "comments": [
+          {
+            "name": "Eleanor",
+            "surname": "Brown",
+            "text": "Super!",
+            "rating": 5,
+            "photo": "product3comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 7,
+        "name": "WALL CLOCK",
+        "price": 110,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product7_primary.jpg",
+        "secondary_photos": [
+          "product7_secondary1.jpg",
+          "product7_secondary2.jpg",
+          "product7_secondary3.jpg",
+          "product7_secondary4.jpg"
+        ],
+        "category": ["Home Decor", "Furniture"],
+        "tags": ["Decoration", "Modern"],
+        "sku": "SKU: 07",
+        "material": "Chrome",
+        "color": "Black",
+        "weight": "2 kg",
+        "dimensions": "35 x 25 x 12 cm",
+        "comments": [
+          {
+            "name": "Charlie",
+            "surname": "Davis",
+            "text": "Amazing!",
+            "rating": 3,
+            "photo": "user6_comment1.jpg",
+            "comment_date": "2023-10-19"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 8,
+        "name": "BASKET WITH HANDLES",
+        "price": 160,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product8_primary.jpg",
+        "secondary_photos": [
+          "product8_secondary1.jpg",
+          "product8_secondary2.jpg",
+          "product8_secondary3.jpg",
+          "product8_secondary4.jpg"
+        ],
+        "category": ["Decoration", "Home Decor"],
+        "tags": ["Black", "Modern"],
+        "sku": "SKU: 008",
+        "material": "Metal",
+        "color": "Black",
+        "weight": "1.8 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "Eleanor",
+            "surname": "Brown",
+            "text": "Very bad",
+            "rating": 1,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 9,
+        "name": "BASKET WITH HANDLES",
+        "price": 65,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product9_primary.jpg",
+        "secondary_photos": [
+          "product9_secondary1.jpg",
+          "product9_secondary2.jpg",
+          "product9_secondary3.jpg",
+          "product9_secondary4.jpg"
+        ],
+        "category": ["Furniture"],
+        "tags": ["Decorative", "Plant"],
+        "sku": "SKU: 010",
+        "material": "Concrete",
+        "color": "White",
+        "weight": "1.8 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "Eleanor",
+            "surname": "Brown",
+            "text": "Very nice!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 10,
+        "name": "MINIMALISTIC CHAIR",
+        "price": 135,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product10_primary.jpg",
+        "secondary_photos": [
+          "product10_secondary1.jpg",
+          "product10_secondary2.jpg",
+          "product10_secondary3.jpg",
+          "product10_secondary4.jpg"
+        ],
+        "category": ["Accessories"],
+        "tags": ["Boxes", "Wood"],
+        "sku": "SKU: 025",
+        "material": "Wood",
+        "color": "Grey",
+        "weight": "1.8 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "Eleanor",
+            "surname": "Brown",
+            "text": "Very nice!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 11,
+        "name": "VIVID",
+        "price": 360,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product11_primary.jpg",
+        "secondary_photos": [
+          "product11_secondary1.jpg",
+          "product11_secondary2.jpg",
+          "product11_secondary3.jpg",
+          "product11_secondary4.jpg"
+        ],
+        "category": ["Hardwoods"],
+        "tags": ["Decoration", "Modern"],
+        "sku": "SKU: 051",
+        "material": "Wood",
+        "color": "Brown",
+        "weight": "2.8 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "Eleanor",
+            "surname": "Brown",
+            "text": "Very nice!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 12,
+        "name": "VIVID",
+        "price": 360,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product12_primary.jpg",
+        "secondary_photos": [
+          "product12_secondary1.jpg",
+          "product12_secondary2.jpg",
+          "product12_secondary3.jpg",
+          "product12_secondary4.jpg"
+        ],
+        "category": ["Demo Products"],
+        "tags": ["Innovation", "Virtual"],
+        "sku": "SKU: 039",
+        "material": "Wood",
+        "color": "Black",
+        "weight": "2.8 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "Eleanor",
+            "surname": "Brown",
+            "text": "Amazing!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 13,
+        "name": "LUCENT",
+        "price": 350,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product13_primary.jpg",
+        "secondary_photos": [
+          "product13_secondary1.jpg",
+          "product13_secondary2.jpg",
+          "product13_secondary3.jpg",
+          "product13_secondary4.jpg"
+        ],
+        "category": [" Luminous"],
+        "tags": ["Decoration", "Modern"],
+        "sku": "SKU: 049",
+        "material": "Glass",
+        "color": "Brown",
+        "weight": "2.2 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "luciana",
+            "surname": "angelo",
+            "text": "Amazing!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 14,
+        "name": "GOLD WALL CLOCK",
+        "price": 250,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product14_primary.jpg",
+        "secondary_photos": [
+          "product14_secondary1.jpg",
+          "product14_secondary2.jpg",
+          "product14_secondary3.jpg",
+          "product14_secondary4.jpg"
+        ],
+        "category": [" Time and Light"],
+        "tags": ["Decoration", "Modern"],
+        "sku": "SKU: 049",
+        "material": "Steel",
+        "color": "Gold",
+        "weight": "2.2 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "luciana",
+            "surname": "angelo",
+            "text": "Amazing!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 15,
+        "name": "BED TIME",
+        "price": 460,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product15_primary.jpg",
+        "secondary_photos": [
+          "product15_secondary1.jpg",
+          "product15_secondary2.jpg",
+          "product15_secondary3.jpg",
+          "product15_secondary4.jpg"
+        ],
+        "category": ["Luminous"],
+        "tags": ["Decorative", "Plant"],
+        "sku": "SKU: 046",
+        "material": "Wood",
+        "color": "Orange",
+        "weight": "2.2 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "luciana",
+            "surname": "angelo",
+            "text": "Amazing!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      },
+      {
+        "id": 16,
+        "name": "DECORATIVE CANDLE",
+        "price": 77,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.",
+        "primary_photo": "product16_primary.jpg",
+        "secondary_photos": [
+          "product16_secondary1.jpg",
+          "product16_secondary2.jpg",
+          "product16_secondary3.jpg",
+          "product16_secondary4.jpg"
+        ],
+        "category": ["Francies"],
+        "tags": ["Boxes", "Wood"],
+        "sku": "SKU: 017",
+        "material": "Concrete",
+        "color": "Grey",
+        "weight": "2.2 kg",
+        "dimensions": "15 x 15 x 25 cm",
+        "comments": [
+          {
+            "name": "luciana",
+            "surname": "angelo",
+            "text": "Amazing!",
+            "rating": 4,
+            "photo": "product1comment.png",
+            "comment_date": "2023-10-18"
+          }
+        ],
+        "pr_rating": 2
+      }
+    ]
+  }
+  
